@@ -1,0 +1,101 @@
+/* Header Box */
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+margin-left: 5%;
+    background-color:#849cc8;
+margin-top: 2%;
+width: 90%;
+position: fixed;
+padding: 0.1% 1% 0.1% 1%;
+}
+
+/* Logo */
+.logoHeader {
+    width: auto;
+    height: 17vh;
+    transition: all 1s ease
+}
+
+
+
+/* Título */
+.headerBox h1 {
+    font-size: 4em;
+    transition: all 1s ease;
+    font-family:'Courier New', Courier, monospace;
+    a{
+        color: #eff2f4;
+        text-decoration: none;
+  
+    }
+   
+}
+
+
+
+/* -------------------------------------------------- */
+.bx-menu{
+color: #f0f0f0;    
+font-size: 3vw;
+border-style: none;
+background-color: #849cc8;
+border-color: #849cc8;
+
+}
+.menu {
+    background-color: #f0f0f0; /* Cor de fundo do menu */
+    padding: 3%; /* Preenchimento interno */
+    position: absolute; /* Para posicionar o menu */
+    top:100px; /* Ajuste conforme necessário */
+    right: 0; /* Alinhado à esquerda */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para o menu */
+    display: flex;
+    align-items:flex-end;
+    
+}
+
+.menu ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+.menu li {
+    margin: 10px 0; /* Margem entre os itens do menu */
+}
+
+.menu a:hover {
+    color: rgb(206, 195, 195); /* Cor do texto ao passar o mouse */
+  
+}
+
+.menu a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: black; /* Cor do texto */
+}
+
+/* Media Query para telas de até 480px */
+@media (max-width: 760px)  {
+   
+
+    .headerBox h1 {
+        font-size: 150%; /* Reduz o tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .bx-menu{
+        font-size: 8vw;
+        margin-right: 5%;
+    }
+
+    .cadastro{
+        font-size: 2vw;
+    }
+
+
+
+
+
+}

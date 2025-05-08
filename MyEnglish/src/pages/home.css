@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 99vw;
+    height: 40vh;
+
+    color: white;
+}
+
+/* Banner Titulo */
+.banner h1{
+    font-size: 3em;
+}
+
+/* Fundo do texto no banner */
+#bandeira {
+    background-color: #3b3c3d;
+    padding: 0em 1em 0em 1em;
+}
+
+/* Palavras em Azul */
+#azul {
+    color: #5e6163;
+}
+
+/* Icone invertido */
+.banner i {
+    transform: scaleX(-1);
+}
+
+.TituloDosPacotes{
+    padding-top: 2.5em;
+    padding-left: 4em;
+    padding-right: 1.3em;
+    font-family: "Sriracha", cursive;
+    font-size: 1.3em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2em;
+    width: 99vw;
+    height: 70vh;
+    padding-bottom: 10em;
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+    .banner{
+        font-size: 2vw;
+    }
+    
+}
