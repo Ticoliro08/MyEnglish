@@ -8,17 +8,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // Pages
   import Home from './pages/Home'
- 
+ import Vocabulary from './pages/vocabulary'
   
-//menu
+
+
 
 
 function App() {
+ 
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/vocabulary' element={<Vocabulary/>} />
+          
                 
         </Routes>
       </BrowserRouter>

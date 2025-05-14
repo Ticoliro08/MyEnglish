@@ -1,0 +1,50 @@
+/* Flashcard Container */
+.flashcard-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  /* Palavra principal */
+  .flashcard-container p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Tradução e exemplo */
+  .flashcard-container strong {
+    color: #34495e;
+  }
+  
+  .flashcard-container em {
+    color: #7f8c8d;
+  }
+  
+  /* Botões */
+  .btnWord {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btnWord:hover {
+    background-color: #2980b9;
+  }
+  
+  .btnWord  .btnWord {
+    margin-left: 10px;
+  }
+  

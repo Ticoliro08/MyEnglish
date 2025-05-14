@@ -23,7 +23,7 @@ padding: 0.1% 1% 0.1% 1%;
 
 /* Título */
 .headerBox h1 {
-    font-size: 4em;
+    font-size: 3em;
     transition: all 1s ease;
     font-family:'Courier New', Courier, monospace;
     a{
@@ -49,7 +49,7 @@ border-color: #849cc8;
     background-color: #f0f0f0; /* Cor de fundo do menu */
     padding: 3%; /* Preenchimento interno */
     position: absolute; /* Para posicionar o menu */
-    top:100px; /* Ajuste conforme necessário */
+    top:85px; /* Ajuste conforme necessário */
     right: 0; /* Alinhado à esquerda */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para o menu */
     display: flex;

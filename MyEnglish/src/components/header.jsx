@@ -52,8 +52,8 @@ function Header() {
                    
                     <ul>
                         <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/favoritos'>Vocabulary</Link></li>
-                        <li><Link to='/carrinho'>Phrasal Verb</Link></li>
+                        <li><Link to='/vocabulary'>Vocabulary</Link></li>
+                        <li><Link to='/Phrasal_Verb'>Phrasal Verb</Link></li>
                     </ul>
                 </nav>
             )}
